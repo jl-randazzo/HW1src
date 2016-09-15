@@ -1,0 +1,109 @@
+Chapter 1
+
+1.1.1
+a. 7
+b. 200.0000002
+c.  False
+
+1.1.2
+a. Type: double Value: 1.618
+b. Type: double Value: 10.0
+c. Type: Boolean Value: True
+d. Type: String Value: 33
+
+1.1.3
+if (a==b && b==c)
+System.out.println(“equal”);
+else System.out.println(“not equal”); 
+
+1.1.4
+a. The ‘then’ doesn’t belong; it will cause an error
+b. There are no parenthesis around the condition
+c. Nothing wrong
+d. There is a missing semicolon after the first 0
+
+1.1.5
+if ((x <1.0 && x>0.0)&&(y<1.0&&y>0.0)) System.out.println(“true”);
+else System.out.println(“false”);
+
+1.1.6
+0
+1
+1
+2
+3
+5
+8
+13
+21
+34
+55
+89
+144
+233
+377
+610
+
+1.1.7
+a. 3.00009
+b.999000
+c.10000
+
+1.1.8
+a. b — In the case of a single char in single quotes, ‘out’ just prints the character
+b. 197 — When java tries to add the chars together, it converts them into arithmetic operators rather than concatenating them.
+c. e — The output is formatted with ‘char,’ and then the user adds 4 to the ASCII value of ‘a,’ returning the ASCII value formatted to be output as a character
+
+1.1.12
+0
+1
+2
+3
+4
+4
+3
+2
+1
+0
+
+Chapter 2
+
+1.2.6
+In CircularRotation.java on my GitHub
+
+1.2.12
+In LukeDate.java on my GitHub
+
+Chapter 3
+
+1.3.3
+b., f., g. could not happen
+
+1.3.9
+In Pcount.java on my GitHub
+
+Chapter 4
+
+1.4.1
+The first ‘for’ loop encompasses all N objects, the second encompasses N-1, and the third encompasses N-3. 
+Take N=5 (for the purposes of the mathematical analysis, I’m going to start the indices at i=1)
+Starting with the third ‘for’ loop, we must run from i=3 1 times; we must run from i=2 2 Times, and we must run 1 3 times. So we’re looking at (1*3)+(2*2)+(3*1), or 10 individual runtimes.
+N^3-3N^2+2N/6 when evaluated at N=5 returns 10.
+The 1/6 coefficient is there because we are running with no repetition, so we aren’t running through the data N times, we’re running through it a fraction of that amount.
+
+1.4.5
+a. ~N
+b. ~1
+c. ~1
+d. ~2N^3
+e. ~lg(N)
+f. ~lg(N^2)
+g. ~N^100
+
+1.4.6
+a. (2N-1)
+b. (2N-1)
+c. NlgN
+
+1.4.9
+T(N)=aN^blgN
